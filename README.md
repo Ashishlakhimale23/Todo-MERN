@@ -21,9 +21,9 @@ This is a simple MERN stack todo application with user authentication using JWT 
 ## Installation
 
 1. Clone the repository: `https://github.com/Ashishlakhimale23/Todo-MERN.git`
-2. Install dependencies: `npm install` (in both client and server directories)
-3. Start the server: `npm start` (in the server directory)
-4. Start the client: `npm start` (in the client directory)
+2. Install dependencies: `npm install` (in both frontend and backend directories)
+3. Start the server: `npm start` (in the backend directory)
+4. Start the client: `npm start` (in the frontend directory)
 
 ## Usage
 
