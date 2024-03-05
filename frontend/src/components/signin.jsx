@@ -16,11 +16,22 @@ function Signin() {
         username
       })
       .then((res) => {
-        console.log(res);
+        console.log(res.data);
+        const response = Object.keys(res.data)
+        if(!response.includes("created")){
+         setEmail("")
+        setPassword("")
+        setUsername("")
+        alert("validation error") 
+        navigate("/signin")
+
+
+        }
+        else{
         setEmail("")
         setPassword("")
         setUsername("")
-        navigate("/login")
+        navigate("/login")}
 
 
       })
