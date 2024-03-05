@@ -1,43 +1,43 @@
-# MERN Todo Application
+# Todo MERN Project
 
-This is a simple MERN stack todo application with user authentication using JWT (JSON Web Tokens). The application allows users to sign up, log in, create, delete, and mark todos as completed. Additional features such as updating todos, daily todos, and data validation using Joi are planned to be added in the future.
-
-## Technologies Used
-
-- MongoDB: Database to store todo data and user information.
-- Express.js: Backend framework for building the API endpoints.
-- React.js: Frontend library for building the user interface.
-- Node.js: Server-side runtime environment for running the backend code.
-- JWT: JSON Web Tokens for user authentication.
-
+This project is a Todo application built with the MERN stack (MongoDB, Express.js, React.js, Node.js). It includes features such as user authentication using JWT, user authorization, and user validation using Joi. Users can sign in, log in, add todos, delete todos, and mark todos as completed.
 
 ## Features
 
-- User Authentication: Sign up and log in functionality.
-- Todo CRUD Operations: Create, read, update, and delete todos.
-- Mark Todos as Completed: Ability to mark todos as completed.
-
+- **Sign In:** Users can sign in to their accounts.
+- **Login:** Users can log in to access the application.
+- **Add Todo:** Authenticated users can add new todos.
+- **Delete Todo:** Users can delete existing todos.
+- **Mark Completed:** Users can mark todos as completed.
+- **JWT Authentication:** User authentication is handled using JWT tokens.
+- **Authorization:** Only authenticated users can access certain routes and perform actions.
+- **Joi Validation:** User input is validated using Joi for data integrity and security.
 
 ## Installation
 
-1. Clone the repository: `https://github.com/Ashishlakhimale23/Todo-MERN.git`
-2. Install dependencies: `npm install` (in both frontend and backend directories)
-3. Start the server: `npm start` (in the backend directory)
-4. Start the client: `npm start` (in the frontend directory)
+1. Clone the repository: `git clone https://github.com/Ashishlakhimale23/Todo-MERN.git`
+2. Install dependencies: `npm install`
+3. Set up environment variables (e.g., MongoDB URI, JWT secret)
+4. Run the backend: `cd todoserver` && `npm start`
+5. Run the frontend: `cd frontend && npm run dev`
 
 ## Usage
 
-1. Sign up for an account.
-2. Log in to access the todo application.
-3. Create, delete, and mark todos as completed.
-4. Log out when done.
+1. Sign in or log in to access the todo list.
+2. Add new todos using the input field.
+3. Delete todos by clicking the delete button.
+4. Mark todos as completed by clicking the tick.
 
-## Planned Features
+## Technologies Used
 
-- Update Todos: Ability to update existing todos.
-- Daily Todos: Option to set daily todos for better organization.
-- Data Validation: Use Joi for accepting accurate format data.
+- **Frontend:** React.js
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB
+- **Authentication:** JWT
+- **Validation:** Joi
 
+## Future Features
 
-
+- **Update Todo:** Allow users to update their todos.
+- **OTP Validation:** Implement OTP validation for enhanced security.
 
